@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-content{
+    display: flex;
+}
+
+.link-anchor{
+    display: flex;
+}
+
+.link-image{
+    display: flex;
+}
+
+.link-title{
+    display: flex;
+}
+
+.footer-title{
+    display: flex;
+}
