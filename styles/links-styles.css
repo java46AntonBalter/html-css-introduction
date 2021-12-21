@@ -7,20 +7,33 @@ body {
 
 .main-content{
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
 }
 
 .link-anchor{
     display: flex;
+    align-items: center;
 }
 
 .link-image{
     display: flex;
+    width: 100px;
 }
 
 .link-title{
     display: flex;
+    width: 200px; 
+    text-align: left; 
+    font-size: 20px;
 }
 
 .footer-title{
     display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
