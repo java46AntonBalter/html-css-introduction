@@ -5,35 +5,26 @@ body {
     align-items: center;
 }
 
-.main-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    
-}
-
 .link-anchor{
     display: flex;
     align-items: center;
+    margin: 30px
 }
 
 .link-image{
-    display: flex;
     width: 100px;
+    
 }
 
 .link-title{
-    display: flex;
-    width: 200px; 
-    text-align: left; 
+    width: 100px;
     font-size: 20px;
     margin-left: 10px;
 }
 
 .footer-title{
-    display: flex;
     position: absolute;
     bottom: 0;
     left: 0; 
 }
+
