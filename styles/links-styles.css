@@ -5,8 +5,9 @@ body {
     align-items: center;
 }
 
-.link-anchor{
+.link-container{
     display: flex;
+    flex-direction:row; 
     align-items: center;
     margin: 30px
 }
@@ -28,3 +29,6 @@ body {
     left: 0; 
 }
 
+body, html {
+    height: 100%;
+}
